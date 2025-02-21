@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     new Swiper('.wc-product-slider', {
         slidesPerView: 4,
         spaceBetween: 20,
         loop: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false
-        // },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
