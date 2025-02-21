@@ -1,0 +1,42 @@
+@tailwind components;
+@tailwind utilities;
+
+
+.wc-product-slider  .product-image-container {
+    @apply mb-2;
+}
+
+.wc-product-slider img {
+    @apply w-full;
+}
+
+.wc-product-slider h3.product-title {
+    @apply font-body text-p line-clamp-2;
+    @apply hover:underline;
+}
+
+
+.wc-product-slider .price {
+    @apply font-bold text-h6;
+}
+
+.wc-product-slider .price del {
+    @apply text-gray-400 text-small;
+}
+
+.wc-product-slider .price ins {
+    @apply text-red-600;
+    @apply bg-transparent;
+}
+
+.wc-product-slider a.add_to_cart_button {
+    @apply inline-block px-3;
+    @apply leading-[3rem] font-bold;
+    @apply bg-gold-500 hover:bg-violet-300;
+    @apply rounded-lg;
+}
+
+.wc-product-slider .added_to_cart {
+    @apply ml-2;
+    @apply hover:underline;
+}

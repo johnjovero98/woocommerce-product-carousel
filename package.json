@@ -1,0 +1,13 @@
+{
+  "name": "woocommerce-product-carousel",
+  "version": "1.0.0",
+  "description": "Custom product slider plugin for woocommerce",
+  "scripts": {
+    "start-tailwindcss": "npx tailwindcss -i ./src/input.css -o ./css/product-carousel.css --watch"
+  },
+  "author": "john jovero",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

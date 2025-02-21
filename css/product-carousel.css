@@ -1,0 +1,71 @@
+.mt-4 {
+  margin-top: 54px
+}
+
+.wc-product-slider  .product-image-container {
+  margin-bottom: 13.5px
+}
+
+.wc-product-slider img {
+  width: 100%
+}
+
+.wc-product-slider h3.product-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-family: "Montserrat", san-serif;
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.wc-product-slider h3.product-title:hover {
+  text-decoration-line: underline
+}
+
+.wc-product-slider .price {
+  font-size: 1.25rem;
+  line-height: 3rem;
+  font-weight: 700
+}
+
+.wc-product-slider .price del {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1))
+}
+
+.wc-product-slider .price ins {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+  background-color: transparent
+}
+
+.wc-product-slider a.add_to_cart_button {
+  display: inline-block;
+  padding-left: 27px;
+  padding-right: 27px;
+  font-weight: 700;
+  line-height: 3rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 180 75 / var(--tw-bg-opacity, 1))
+}
+
+.wc-product-slider a.add_to_cart_button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 181 253 / var(--tw-bg-opacity, 1))
+}
+
+.wc-product-slider a.add_to_cart_button {
+  border-radius: 0.5rem
+}
+
+.wc-product-slider .added_to_cart {
+  margin-left: 13.5px
+}
+
+.wc-product-slider .added_to_cart:hover {
+  text-decoration-line: underline
+}
